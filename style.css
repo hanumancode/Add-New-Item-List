@@ -24,3 +24,8 @@ body {
     color: #fff;
     border-color: #000;
 }
+
+.active {
+    background: beige;
+    color: blue;
+}
