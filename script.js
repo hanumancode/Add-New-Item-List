@@ -1,3 +1,4 @@
+var headline = document.getElementById("new_item_header");
 var listItems = document.getElementById("list").getElementsByTagName("li");
 
 for (i = 0; i < listItems.length; i++) {
@@ -5,5 +6,6 @@ for (i = 0; i < listItems.length; i++) {
 }
 
 function activateItem() {
-    alert("click detected");
+    // alert("click detected");
+    headline.innerHTML = this.innerHTML;
 }
